@@ -1,0 +1,485 @@
+/* Esilos de Header y footer */
+header{
+    background-color: #EAC926;
+    font-family: Roboto;
+    padding: 15px 25px;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+}
+
+.search{
+    display: flex;
+    width: 50%;
+    position: relative;
+    font-size: 1em;
+}
+
+.boton{
+    position: relative;
+    right: 31px;
+    font-size: 1.68rem;
+}
+
+.texto-header{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+nav{
+    position: relative;
+    /* display: none; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuHamburguesa{
+    text-align: center;
+}
+
+.fa-bars{
+    text-align: center;
+    font-size: 20px;
+    width: 22px;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.banner{
+    width: 100vw;
+}
+
+body{
+    font-size: 12px;
+    margin: 0px;
+    background-color: #ebebeb;
+}
+
+section h3{
+    font-size: 24px;
+    padding: 15px 0px;
+}
+
+.price{
+    font-size: 18px;
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    position: relative;
+    right: 10px;
+}
+
+.off{
+    font-size: 16px;
+    color: #39b54a;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    position: relative;
+    top: 2px;
+}
+
+.price-off{
+    display: flex;
+    margin-top: 10px;
+}
+
+article h4{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: none;
+}
+
+article{
+    text-align: center;
+}
+
+article i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    margin-top: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+}
+
+main article{
+    margin: 10px;
+    box-sizing: content-box;
+    border: solid 1px #ebebeb;
+    padding: 15px;
+    background-color: #FFF;
+}
+
+footer{
+    margin-top: 70px;
+    background-color: white;
+}
+
+footer article{
+    padding-bottom: 25px;
+}
+
+.copy{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.product-info{
+    text-align: left;
+    border-top: solid 1px #ebebeb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.sectionUltimaVisita{
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+}
+
+.sectionOfertas{
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fa-truck{
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    color: #39b54a;
+    outline: solid 1px #39b54a;
+    outline-offset: 5px;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 13px;
+    background-color: #FFF;
+}
+
+article img{
+    width: 200px;
+}
+
+.logo-search{
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+}
+
+@media(min-width: 768px){
+    article h4{
+        display: block;
+    }
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        min-width: 300px;
+        max-width: 300px;
+    }
+    nav{
+        display: block;
+    }
+    .menuHamburguesa{
+        display: none;
+    }
+    body{
+        font-size: 1.2em;
+    }
+    .fa-truck{
+        bottom: 42px;
+    }
+    article h4{
+        margin-bottom: 0px;
+    }
+    .logo{
+        display: block;
+    }
+    .search{
+        font-size: 7.5px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        top: 20px;
+    }
+    .boton{
+        display: block;
+        font-size: 0.89rem;
+        position: relative;
+        left: 175px;
+        bottom: 20px;
+    }
+    .texto-header{
+        display: block;
+        font-size: 0.8em;
+        position: relative;
+        top: 13px;
+    }
+    .header-main{
+        position: relative;
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+    .main-nav{
+        display: flex;
+    }
+    .nav-izq{
+        display: flex;
+        width: 50%;
+        font-size: 0.8em;
+    }
+    .nav-der{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        font-size: 0.8em;
+    }
+    .nav-izq li{
+        padding: 10px;
+        font-size: 1em;
+    }
+    .nav-der li{
+        padding: 10px;
+        font-size: 1em;
+    }
+    .sectionUltimaVisita{
+        width: 730px;
+    }
+    .sectionOfertas{
+        width: 730px;
+    }
+}
+
+@media(min-width: 1024px){
+    main article{
+        min-width: 190px;
+        max-width: 270px;
+    }
+    article img{
+        width: 180px;
+    }
+    main article h4{
+        display: none;
+    }
+    body{
+        font-size: 1.5em;
+    }
+    .search{
+        font-size: 7.5;
+        display: block;
+        position: relative;
+        top: 52px;
+        left: 10px;
+        border-radius: 50%;
+    }
+    .logo{
+        display: block;
+        width: 60%;
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .boton{
+        display: block;
+        font-size: 1.3rem;
+        position: relative;
+        left: 235px;
+        bottom: 27.5px;
+    }
+    .texto-header{
+        display: block;
+        font-size: 1.5vw;
+        position: relative;
+        top: 45px;
+    }
+    .header-main{
+        position: relative;
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+    #search{
+        font-size: 250%;
+    }
+    .sectionUltimaVisita{
+        width: max-content;
+    }
+    .sectionOfertas{
+        width: max-content;
+    }
+    main article:hover h4{
+        display: block;
+    }
+    .fa-truck{
+        bottom: 14px;
+    }
+    main article:hover .fa-truck{
+        bottom: 42px;
+    }
+    main article{
+        box-shadow: none;
+    }
+    main article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    @keyframes rotar{
+        0%{
+            rotate: 0deg;
+        }
+        100%{
+            rotate: -90deg;
+        }
+    }
+    .fa-truck:hover{
+        animation: rotar 1.5s infinite;
+    }
+    .footer{
+        display: flex;
+    }
+    .copy{
+        text-align: center;
+        padding-left: 20px;
+    }
+    footer i{
+        transition: 0.5s;
+    }
+    footer i:hover{
+        color: aqua;
+    }
+}
+
+/* ------- */
+
+/* Estilos del register */
+
+body{
+    background-color: #ebebeb;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    padding: 2vw;
+    min-width: 250px;
+}
+
+.formulario input{
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 80%;
+}
+
+.formulario button{
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 80%;
+    background-color: #1259c3;
+    color: white;
+}
+
+.formulario label{
+    font-size: 20px;
+}
+
+.radio{
+    width: max-content;
+   display: flex;
+   height: 1.5rem;
+}
+
+.perfiles input{
+    position: relative;
+    top: 2px;
+}
+
+
+.intereses{
+    padding-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario input[type="checkbox"]{
+    display: none;
+}
+
+.formulario .checkbox label {
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.formulario .checkbox label:before{
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    top: 4px;
+}
+
+.formulario input[type="checkbox"]:checked + label:before{
+    background: black;
+  
+}
+
+input[type="file"]{
+    padding-top: 10px;
+}
+
+.formulario .op button{
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 80%;
+    background-color: #1259c3;
+
+}
+
+.formulario a{
+    color: white;
+}
+
+/* --------- */
